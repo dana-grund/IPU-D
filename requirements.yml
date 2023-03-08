@@ -8,6 +8,7 @@ dependencies:
   - scipy
   - pandas
   - attrdict
+  - click
 
 ## tephigram package: can be installed with pip, but causes numpy errors.
 ## using local code in tephigram_python/ instead.

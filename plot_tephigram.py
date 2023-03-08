@@ -9,7 +9,7 @@ Updated by Dana Grund on 2023-03-08
 
 from pandas import read_csv
 from tephigram_python import Tephigram
-
+import click
 
 def get_met_data(filename):
     
@@ -34,8 +34,10 @@ def get_met_data(filename):
 
     return p,T,T_dp,RH,z 
 
+@click.command()
+@click.option("-f", '--filename', default="2022-data-group1/zh-999_20220504.csv", help=".csv file to plot")
 def plot_tephigram(filename):
-
+    print('plotting ',filename)
     p,T,T_dp,RH,z = get_met_data(filename)
     
     tephigram = Tephigram()
@@ -46,6 +48,4 @@ def plot_tephigram(filename):
     
 if __name__ == "__main__":
     
-    filename = "2022-data-group1/zh-999_20220504.csv"
-    
-    plot_tephigram(filename)
+    plot_tephigram()
