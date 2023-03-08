@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Settings configuration file saved from the SkySonde Client-->
+<settings>
+  <dataSource>SkySonde Server (realtime)</dataSource>
+  <serverAddress>localhost</serverAddress>
+  <serverPort>1234</serverPort>
+  <iMetSerialNumber />
+  <outputDirectory>D:\Data\SkySonde\</outputDirectory>
+  <balloonProFlightName>zh-999</balloonProFlightName>
+  <enableGPSOutput>False</enableGPSOutput>
+  <gpsOutputPort>
+                </gpsOutputPort>
+  <stationName>Zurich CH</stationName>
+  <stationLatitude>47.37929000</stationLatitude>
+  <stationLongitude>8.54872000</stationLongitude>
+  <stationAltitude>510.0000</stationAltitude>
+  <stationPressure>962.0000</stationPressure>
+  <stationTemperature>25.0000</stationTemperature>
+  <stationHumidity>45.0000</stationHumidity>
+  <stationWindSpeed />
+  <stationWindDirection />
+  <balloonFillGas>Helium</balloonFillGas>
+  <balloonType>Totex 600 (600g)</balloonType>
+  <balloonWeight>500.0</balloonWeight>
+  <balloonOtherWeightWhileFilling />
+  <balloonPayloadWeight />
+  <balloonFillingPayoffWeight />
+  <balloonLiftPercentage />
+  <balloonUnwinderLength />
+  <balloonParachuteType />
+  <notesAboutTheFlight />
+  <ozoneSerialNumber>n/a</ozoneSerialNumber>
+  <ozoneCellBackground>0.0000</ozoneCellBackground>
+  <ozonePumpFlowrate>0.0000</ozonePumpFlowrate>
+  <ozoneRHFlowrateCorrection>0.0000</ozoneRHFlowrateCorrection>
+  <ozoneSolutionVolume>3</ozoneSolutionVolume>
+  <pumpEfficiencyCorrection>NOAA Average (Johnson et al. 2002)</pumpEfficiencyCorrection>
+  <reprocessingStartDateTime>0001/01/01 0:0:0</reprocessingStartDateTime>
+  <reprocessingRAWFileName />
+  <outputFileCSV>zh-999_20220504.csv</outputFileCSV>
+  <outputFileFltDat>zh-999flt.dat</outputFileFltDat>
+  <outputFileDe1>zh-999.de1</outputFileDe1>
+  <stationNameAbbreviation>zuri</stationNameAbbreviation>
+  <outputFileRAW>zh-999_20220504.raw</outputFileRAW>
+  <outputFileRawConfig>zh-999_20220504.rawconfig</outputFileRawConfig>
+  <outputFilePreDat>zh-999pre.dat</outputFilePreDat>
+  <pressureAltitudeDataSource>iMet Radiosonde</pressureAltitudeDataSource>
+  <startAtDifferentDateTime>False</startAtDifferentDateTime>
+  <outputFileKML>zh-999_20220504.kml</outputFileKML>
+  <ozoneLabTemperature>0</ozoneLabTemperature>
+  <ozoneLabHumidity>0</ozoneLabHumidity>
+  <pumpTempDuringFlowrateMeas />
+  <samplingHumidityDuringFlowrateMeas />
+  <labPressureDuringFlowrateMeas />
+  <ozoneSolution />
+  <stationLandingAltitude>500</stationLandingAltitude>
+  <hygroMirrorNumber>9999</hygroMirrorNumber>
+  <hygroIgnoreCalibrationPackets>False</hygroIgnoreCalibrationPackets>
+  <ozonesondeAttached>False</ozonesondeAttached>
+  <hygrometerAttached>False</hygrometerAttached>
+  <applySolarRadiationCorrection>True</applySolarRadiationCorrection>
+  <outputSubdirectory>zh-999_20220504\</outputSubdirectory>
+  <multipleOzonesondesAttached>False</multipleOzonesondesAttached>
+  <ozonesondeChainNumber>-1</ozonesondeChainNumber>
+  <multipleHygrometersAttached>False</multipleHygrometersAttached>
+  <hygrometerChainNumber>-1</hygrometerChainNumber>
+  <useFirstRadiosondePacketForStationInfo>False</useFirstRadiosondePacketForStationInfo>
+  <includeExtraGRUANMetadata>False</includeExtraGRUANMetadata>
+  <sondeInitialPreparationDate>01-01-1980</sondeInitialPreparationDate>
+  <eccPumpCurrentFromTestUnit />
+  <eccPumpPressureFromLabel />
+  <eccPumpVacuumFromLabel />
+  <backgroundCurrentBeforeExposureToO3 />
+  <timeToDropFrom4To1p5uA />
+  <backgroundCurrent10MinutesAfterO3Exposure />
+  <cathodeSolutionNumberOrDate />
+  <ozonesondeADSystem>V7</ozonesondeADSystem>
+  <isTether>False</isTether>
+</settings>

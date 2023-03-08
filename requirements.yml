@@ -1,0 +1,20 @@
+name: IPU-D
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - matplotlib
+  - numpy
+  - scipy
+  - pandas
+  - attrdict
+
+## tephigram package: can be installed with pip, but causes numpy errors.
+## using local code in tephigram_python/ instead.
+
+## required for tephigram according to current git repository
+## not available as of 2023-03-08
+#  - python==3.6
+#  - matplotlib==2.0.0
+#  - numpy==1.12.0
+#  - scipy==0.18.1
